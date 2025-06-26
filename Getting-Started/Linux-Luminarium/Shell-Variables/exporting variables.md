@@ -30,7 +30,6 @@ In this challenge, you must invoke /challenge/run with the PWN variable exported
 
 ## Solution
 
-`export PWN=COLLEGE  
-COLLEGE=PWN  
-/challenge/run
-`
+`export PWN=COLLEGE`
+`COLLEGE=PWN`  
+`/challenge/run`
