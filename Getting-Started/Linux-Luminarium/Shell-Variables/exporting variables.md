@@ -1,4 +1,4 @@
-## EXporting Variables
+## Exporting Variables
 
 By default, variables that you set in a shell session are local to that shell process. That is, other commands you run won't inherit them. You can experiment with this by simply invoking another shell process in your own shell, like so:
 
@@ -30,7 +30,7 @@ In this challenge, you must invoke /challenge/run with the PWN variable exported
 
 ## Solution
 
-`export PWN=COLLEGE
-COLLEGE=PWN
+`export PWN=COLLEGE  
+COLLEGE=PWN  
 /challenge/run
 `
